@@ -8,3 +8,11 @@ Geliştirici aracın kullanımından doğacak herhangi bir zarardan sorumlu değ
 
 Bu aracı kullanarak, yukarıdaki koşulları kabul etmiş olursunuz.
 
+Kullanımı kendisi zaten açıkça toolda belli etmektedir
+
+Kodlayan: https://github.com/Cluster231
+
+Kod python ile oluşturulmuş olunmaktadır yeni yazdığım bir koddur hatalar çıkabilmektedir geri dönüşlerinizi adreslerime belirtebilirsiniz:
+Discord : cluster_1923
+Telegram: t.me/Cluster7318
+İnstagram: www.instagram.com/cluster.208/
