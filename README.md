@@ -19,6 +19,3 @@ Discord : cluster_1923
 
 
 Telegram: t.me/Cluster7318
-
-
-İnstagram: www.instagram.com/cluster.208/
